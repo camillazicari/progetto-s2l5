@@ -46,6 +46,8 @@ console.log(pets);
 /* ESERCIZIO 5
     Dato il seguente array di oggetti, scrivi del codice per aggiungere ad ognuno di essi una proprietà "licensePlate" con valore a tua scelta.
 */
+console.log("------es 5------");
+
 const cars = [
   {
     brand: "Ford",
@@ -66,6 +68,11 @@ const cars = [
     trims: ["life", "style", "r-line"],
   },
 ];
+
+for (i = 0; i < cars.length; i++) {
+  cars[i].licensePlate = "KO987JS";
+}
+console.log(cars);
 
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
