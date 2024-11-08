@@ -29,13 +29,17 @@ console.log(petSort);
 /* ESERCIZIO 3
     Scrivi del codice per stampare nuovamente in console gli elementi dell'array "pets", questa volta in ordine invertito.
 */
-console.log('------es 4------');
+console.log('------es 3------');
 
-
+const petInverse = pets.reverse()
+console.log(petInverse);
 
 /* ESERCIZIO 4
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
 */
+console.log('------es 4------');
+
+
 
 /* ESERCIZIO 5
     Dato il seguente array di oggetti, scrivi del codice per aggiungere ad ognuno di essi una proprietà "licensePlate" con valore a tua scelta.
