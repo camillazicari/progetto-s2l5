@@ -1,5 +1,6 @@
 body {
   background-color: #e9edee;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -12,7 +13,6 @@ header img {
 }
 
 nav ul li {
-  font-family: Arial, Helvetica, sans-serif;
   display: inline-block;
   color: #ebf8ff;
   margin: 0.7em;
@@ -26,8 +26,28 @@ nav {
 #topbar {
   background-color: #f56600;
   margin: 1em;
-  font-family: Arial, Helvetica, sans-serif;
   color: #f2f0da;
   text-align: center;
   padding: 0.3em;
+}
+
+#banner {
+  background-image: url(/assets/img/bg-image.png);
+  background-repeat: repeat-y;
+  background-size: contain;
+  margin: 1em;
+  text-align: center;
+  line-height: 2;
+  font-weight: bold;
+  color: #eaeded;
+}
+
+#banner h1 {
+  font-size: x-large;
+  padding-top: 2.2em;
+}
+
+#banner h2 {
+  padding-bottom: 2.5em;
+  font-size: small;
 }
