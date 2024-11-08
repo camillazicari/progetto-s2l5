@@ -137,4 +137,83 @@ while (i < numericArray.length && numericArray[i] !== 66) {
     es. [f, b, e] --> [6, 2, 5]
 */
 console.log("------es 10------");
-const charactersArray = ["g", "n", "u", "z", "d"];
+
+const charactersArray = ["a", "r", "u", "z", "d"];
+const positionsArray = [];
+
+let gennaio = 1;
+let febbraio = 2;
+let marzo = 3;
+
+for (let i = 0; i < charactersArray.length; i++) {
+  let posizione;
+  switch (charactersArray[i]) {
+    case "a":
+      posizione = 1;
+      break;
+    case "b":
+      posizione = 2;
+      break;
+    case "c":
+      posizione = 3;
+      break;
+    case "d":
+      posizione = 4;
+      break;
+    case "e":
+      posizione = 5;
+      break;
+    case "f":
+      posizione = 6;
+      break;
+    case "g":
+      posizione = 7;
+      break;
+    case "h":
+      posizione = 8;
+      break;
+    case "i":
+      posizione = 9;
+      break;
+    case "l":
+      posizione = 10;
+      break;
+    case "m":
+      posizione = 11;
+      break;
+    case "n":
+      posizione = 12;
+      break;
+    case "o":
+      posizione = 13;
+      break;
+    case "p":
+      posizione = 14;
+      break;
+    case "q":
+      posizione = 15;
+      break;
+    case "r":
+      posizione = 16;
+      break;
+    case "s":
+      posizione = 17;
+      break;
+    case "t":
+      posizione = 18;
+      break;
+    case "u":
+      posizione = 19;
+      break;
+    case "v":
+      posizione = 20;
+      break;
+    case "z":
+      posizione = 21;
+      break;
+    default:
+      position = null;
+  }
+  positionsArray.push(posizione);
+}
+console.log(positionsArray);
