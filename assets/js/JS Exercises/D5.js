@@ -69,7 +69,7 @@ const cars = [
   },
 ];
 
-for (i = 0; i < cars.length; i++) {
+for (let i = 0; i < cars.length; i++) {
   cars[i].licensePlate = "KO987JS";
 }
 console.log(cars);
@@ -81,14 +81,14 @@ console.log(cars);
 console.log("------es 6------");
 
 cars.push({
-  brand: 'Lamborghini',
-  model: 'revuelto',
-  color: 'pink',
+  brand: "Lamborghini",
+  model: "revuelto",
+  color: "pink",
   trims: ["titanium", "st", "active"],
-}) 
+});
 console.log(cars);
 
-for (let i=0; i<cars.length; i++) {
+for (let i = 0; i < cars.length; i++) {
   cars[i].trims.pop();
 }
 console.log(cars);
@@ -98,7 +98,7 @@ console.log(cars);
 console.log("------es 7------");
 const justTrims = [];
 
-for (let i=0; i<cars.length; i++) {
+for (let i = 0; i < cars.length; i++) {
   justTrims.push(cars[i].trims[0]);
 }
 console.log(justTrims);
@@ -106,6 +106,15 @@ console.log(justTrims);
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
 */
+console.log("------es 8------");
+
+for (let i=0; i<cars.length; i++) {
+  if (cars[i].color[0] === 'b') {
+    console.log("Fizz");
+  } else {
+    console.log('Buzz');
+  }
+}
 
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
