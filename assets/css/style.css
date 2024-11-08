@@ -14,10 +14,10 @@ nav,
   background-color: #354759;
 }
 
-#topbar,
 #banner,
 #cards {
-  margin: 1.3em;
+  margin: 1em;
+  box-sizing: border-box;
 }
 
 .small {
@@ -47,7 +47,9 @@ nav {
 #topbar {
   background-color: #f56600;
   color: #ecd8c9;
-  padding: 0.3em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin: 1.2308em;
 }
 
 #banner {
