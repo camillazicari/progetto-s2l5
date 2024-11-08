@@ -1,20 +1,33 @@
+body {
+  background-color: #e9edee;
+}
+
 header {
-    background-color: #222F3E;
+  background-color: #222f3e;
 }
 
 header img {
-    width: 20%;
-    padding:0.5em 1.5em 0.5em 1.5em;
+  width: 15%;
+  padding: 0.5em 1.5em 0.5em 1.5em;
 }
 
-nav ul li{
-    font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
-    color: #EBF8FF;
-    margin: 0.7em;
+nav ul li {
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  color: #ebf8ff;
+  margin: 0.7em;
 }
 
 nav {
-    background-color: #354759;
-    padding-left: 1.5em;
+  background-color: #354759;
+  padding-left: 1.5em;
+}
+
+#topbar {
+  background-color: #f56600;
+  margin: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f2f0da;
+  text-align: center;
+  padding: 0.3em;
 }
