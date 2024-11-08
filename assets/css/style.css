@@ -1,6 +1,7 @@
 body {
   background-color: #e9edee;
   font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
 }
 
 header {
@@ -83,4 +84,30 @@ nav {
     width: 13em;
     height: 15em;
     border-radius: 5%;
+}
+
+#immaginigrandi img{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1em 1em 0 1em;
+}
+
+#immaginigrandi {
+    text-align: center;
+}
+
+#immaginigrandi h3,p {
+    display: inline;
+    padding: 0.3em;
+    margin-bottom: 2em;
+}
+
+#immaginigrandi p {
+    font-size: small;
+    font-weight: bold;
+    color: #017185;
+}
+
+.immaginitext {
+    margin-bottom: 1em;
 }
