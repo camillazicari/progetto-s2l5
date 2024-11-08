@@ -54,82 +54,87 @@ nav {
 }
 
 #cards {
-    background-color: #FFFFFF;
-    margin: 1em;
-    padding: 1em;
+  background-color: #ffffff;
+  margin: 1em;
+  padding: 1em;
 }
 
-#cards h3,p {
-    display: inline;
-    padding-right: 0.5em;
-    padding-bottom: 1em;
+#cards h3,
+p {
+  display: inline;
+  padding-right: 0.5em;
+  padding-bottom: 1em;
 }
 
 #cards p {
-    font-size: small;
-    font-weight: bold;
-    color: #017185;
+  font-size: small;
+  font-weight: bold;
+  color: #017185;
 }
 
 #cardsimages {
-    text-align: center;
-    padding-top: 1em;
+  text-align: center;
+  padding-top: 1em;
 }
-#card1, #card2, #card3, #card4 {
-    display: inline;
-    padding: 1em;
+#card1,
+#card2,
+#card3,
+#card4 {
+  display: inline;
+  padding: 1em;
 }
 
 #cards img {
-    width: 13em;
-    height: 15em;
-    border-radius: 5%;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.1);
+  width: 13em;
+  height: 15em;
+  border-radius: 5%;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.1);
 }
 
-#immaginigrandi img{
-    box-sizing: border-box;
-    width: 100%;
-    padding: 0 1em 0 1em;
+#immaginigrandi img {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 1em 0 1em;
 }
 
 #immaginigrandi {
-    text-align: center;
+  text-align: center;
 }
 
-#immaginigrandi h3,p {
-    display: inline;
-    padding: 0.3em;
-    margin-bottom: 2em;
+#immaginigrandi h3,
+p {
+  display: inline;
+  padding: 0.3em;
+  margin-bottom: 2em;
 }
 
 #immaginigrandi p {
-    font-size: small;
-    font-weight: bold;
-    color: #017185;
+  font-size: small;
+  font-weight: bold;
+  color: #017185;
 }
 
 .immaginitext {
-    margin-bottom: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 #ancora {
-    padding: 1em;
-    background-color: #354759;
-    text-align: center;
-    font-size: small;
+  padding: 1em;
+  background-color: #354759;
+  text-align: center;
+  font-size: small;
 }
 
 #ancora a {
-    color: #EAEDED;
+  color: #eaeded;
 }
 
 #footerlogo {
-    background-color: #222f3e;
-    text-align: center;
+  background-color: #222f3e;
+  text-align: center;
 }
 
 #footerlogo img {
-    width: 15%;
-    padding: 4em;
+  width: 15%;
+  padding: 4em;
 }
