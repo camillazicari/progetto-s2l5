@@ -78,7 +78,20 @@ console.log(cars);
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
 */
+console.log("------es 6------");
 
+cars.push({
+  brand: 'Lamborghini',
+  model: 'revuelto',
+  color: 'pink',
+  trims: ["titanium", "st", "active"],
+}) 
+console.log(cars);
+
+for (let i=0; i<cars.length; i++) {
+  cars[i].trims.pop();
+}
+console.log(cars);
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
